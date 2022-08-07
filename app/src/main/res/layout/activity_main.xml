@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/your_name"
+       android:id="@+id/tvName"
+       android:textSize="25sp"
+       android:layout_margin="10dp">
+
+   </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/your_name"
+        android:id="@+id/tvName2"
+        android:textSize="25sp"
+        android:layout_margin="10dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/your_address"
+        android:id="@+id/tvAddress"
+        android:textSize="25sp"
+        android:layout_margin="10dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/your_address"
+        android:id="@+id/tvAddress2"
+        android:textSize="25sp"
+        android:layout_margin="10dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/your_gender"
+        android:id="@+id/tvGender"
+        android:textSize="25sp"
+        android:layout_margin="10dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/your_gender"
+        android:id="@+id/tvGender2"
+        android:textSize="25sp"
+        android:layout_margin="10dp">
+
+    </TextView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/update"
+        android:layout_gravity="center"
+        android:id="@+id/btnUpdate"
+        android:textSize="22sp">
+
+    </Button>
+
+
+
+
+
+
+
+</LinearLayout>
+    </layout>

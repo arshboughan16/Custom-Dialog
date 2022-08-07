@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Custom Dialog activity</string>
+    <string name="your_name">Your Name</string>
+    <string name="your_address">Your Address</string>
+    <string name="your_gender">Your Gender</string>
+    <string name="update">UPDATE</string>
+    <string name="he">He</string>
+    <string name="she">She</string>
+    <string name="other">Other</string>
+    <string name="She">She</string>
+    <string name="enter_gender">enter_gender</string>
+</resources>
